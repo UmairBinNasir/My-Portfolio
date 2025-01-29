@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import React from "react";
@@ -20,58 +21,98 @@ export default function About() {
       id="about"
     >
       <div className="container mx-auto">
-      <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
-        <SectionHeading>
-          About Me
-        </SectionHeading>
-      </Fade>
-        
+        <Fade
+          direction="up"
+          delay={400}
+          cascade
+          damping={1e-1}
+          triggerOnce={true}
+        >
+          <SectionHeading>About Me</SectionHeading>
+        </Fade>
 
         <div className="grid xl:grid-cols-2 lg:text-start">
-
           <div className="flex-1">
             {/* Content */}
             <div className="text-lg mt-12 xl:mt-3">
               <div className="flex justify-start flex-col">
-              
-              
-              
-
-              <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
-                <h3 className="font-bold mt-6">Our Mission</h3>
-              </Fade>
-              <Fade direction="up" delay={600} cascade damping={1e-1} triggerOnce={true}>
-                <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                We believe that a website is the foundation of a successful online presence, and our goal is to help businesses establish a strong digital presence. Our process begins with understanding your business goals.
-                </p>
-              </Fade>
-              <Fade direction="up" delay={800} cascade damping={1e-1} triggerOnce={true}>
-                <h3 className="font-bold mt-6">Our Vision</h3>
-              </Fade>
-              <Fade direction="up" delay={1000} cascade damping={1e-1} triggerOnce={true}>
+                <Fade
+                  direction="up"
+                  delay={400}
+                  cascade
+                  damping={1e-1}
+                  triggerOnce={true}
+                >
+                  <h3 className="font-bold mt-6">Introduction</h3>
+                </Fade>
+                <Fade
+                  direction="up"
+                  delay={600}
+                  cascade
+                  damping={1e-1}
+                  triggerOnce={true}
+                >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                  We then use this information to create a custom website that not only reflects your brand but also helps you achieve your business objectives. From responsive design to intuitive navigation, we focus on every detail.
+                    Hi, I&rsquo;m <b>Umair Bin Nasir. </b>
+                    I&rsquo;m a passionate Frontend Web Developer with a knack
+                    for creating fast, responsive, and visually appealing
+                    websites. I specialize in React, Next.js, and Tailwind CSS
+                    to build sleek and scalable web applications. With
+                    experience integrating platforms like Sanity.io for seamless
+                    content management and Stripe for smooth payment solutions,
+                    I focus on delivering intuitive and high-performance user
+                    experiences. Let’s bring your ideas to life with modern web
+                    technologies!
                   </p>
-              </Fade>
-                
-
-
+                </Fade>
+                <Fade
+                  direction="up"
+                  delay={800}
+                  cascade
+                  damping={1e-1}
+                  triggerOnce={true}
+                >
+                  <h3 className="font-bold mt-6">Education</h3>
+                </Fade>
+                <Fade
+                  direction="up"
+                  delay={1000}
+                  cascade
+                  damping={1e-1}
+                  triggerOnce={true}
+                >
+                  <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
+                    I hold a Bachelor's degree in Mathematics, which has
+                    equipped me with strong problem-solving skills and a deep
+                    understanding of logic and algorithms. I’m a certified web
+                    developer, passionate about creating innovative and dynamic
+                    web applications. Currently, I’m expanding my knowledge by
+                    diving into Cloud Applied Generative AI Engineering, where
+                    I’m exploring the cutting-edge intersection of AI and cloud
+                    technologies.
+                  </p>
+                </Fade>
               </div>
             </div>
           </div>
           <div>
-          <Fade direction="right" delay={600} cascade damping={1e-1} triggerOnce={true}>
-          <Image
-              src="/about.jpg"
-              width="600"
-              height="600"
-              alt="portrait"
-              quality="100"
-              priority={true}
-              className="rounded-full mt-8 object-cover"
-            />
-          </Fade>
-          
+            <Fade
+              direction="right"
+              delay={600}
+              cascade
+              damping={1e-1}
+              triggerOnce={true}
+            >
+              <Image
+                src="/about.jpg"
+                width="600"
+                height="600"
+                alt="portrait"
+                quality="100"
+                priority={true}
+                className="rounded-full mt-8 object-cover"
+              />
+            </Fade>
           </div>
         </div>
       </div>

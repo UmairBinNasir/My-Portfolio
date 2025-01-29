@@ -63,7 +63,7 @@ export default function Intro() {
       <h1 className="mb-10 mt-4 px-4 text-2xl sm:text-4xl">
         <span className="font-medium !leading-[1.5] ">Grow your business with a new website.</span>{" "}
         <p className="text-[14px]">
-        Resonance is a full-service creative studio creating beautiful digital experiences and products.
+        A website is crucial for a business because it serves as the online face of the company, providing a platform for customers to learn about products or services, make purchases, or get in touch.
         </p>
       </h1>
       </Fade>
@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/mohamed-rhanmi/"
+          href="https://www.linkedin.com/in/umair-nasir-a82a63315/"
           target="_blank"
         >
           <BsLinkedin />
@@ -99,7 +99,7 @@ export default function Intro() {
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href=""
+          href="https://github.com/Umair-Bin-Nasir"
           target="_blank"
         >
           <FaGithubSquare />

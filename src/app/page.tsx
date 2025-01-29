@@ -1,8 +1,9 @@
 import About from "@/components/about";
-import Contact from "@/components/contact";
+// import Contact from "@/components/contact";
 import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
+import ContactForm from "@/components/ContactForm"
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <About />
       <Projects />
       <Skills />
-      <Contact />
+      {/* <Contact /> */}
+      <ContactForm />
     </main>
   );
 }

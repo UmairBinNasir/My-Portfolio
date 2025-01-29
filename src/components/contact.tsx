@@ -33,7 +33,9 @@ export default function Contact() {
       </SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        {"Feel free to contact me directly through this form"}
+        {"Feel free to contact me directly through this form or "}<br />
+        {"email:"}<a> aumair1259@gmail.com </a><br />
+        {"Phone:"}<a> +92 309 4041460</a><br />
       </p>
 
       <form
