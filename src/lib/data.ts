@@ -30,7 +30,7 @@ export const projectsData: ProjectInfo[] = [
       "A fully responsive ecommerce website built with Next.js, Tailwind CSS, Sanity.io, and Stripe. The platform offers a seamless shopping experience, with fast page loads and a clean, modern design. Sanity.io powers flexible content management, while Stripe ensures secure and efficient payment processing. Whether browsing on desktop or mobile, users will enjoy an intuitive, smooth experience across all devices.",
     tags: ["React", "Next.js", "Sanity io", "Tailwind", "Stripe"],
     imageUrl: "/project-1.png",
-    link: "https://ecommerce-assignment-project-gkdw-2afmv79z1.vercel.app/",
+    link: "https://shop-now-by-umair.vercel.app/",
   },
   {
     title: "Medical Store",
